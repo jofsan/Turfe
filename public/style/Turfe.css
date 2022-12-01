@@ -1,0 +1,87 @@
+body {
+    margin:0;
+}
+
+.social{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://jogabrasil.com/assets/images/news/2020/07/uruguai-o-turfe-recupera-todas-as-pistas-1920x1080.jpg");
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.social .container{
+    margin: auto;
+    width: 40%;
+    height: 500px;
+    margin-top: 55px;
+    border: solid 10px rgb(77, 44, 2);
+    border-radius: 10px;
+    background-color: white;
+    
+
+}
+.social .container .corrida{
+    border: solid 3px green;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 59, 0);
+
+}
+.social .container .corrida ul{
+    list-style-type: none;
+    margin-left: 0;
+
+}
+#c1{
+display: flex;
+background-color: rgb(0, 59, 0);
+border:solid  3px white;
+border-left: 30px solid white;
+border-right: 30px solid white;
+
+}
+#c2{
+display: flex;
+background-color: rgb(0, 59, 0);
+border:solid  3px white;
+
+border-left: 30px solid white;
+border-right: 30px solid white;
+
+}
+#c3{
+display: flex;
+background-color: rgb(0, 59, 0);
+border:solid  3px white;
+border-left: 30px solid white;
+border-right: 30px solid white;
+
+}
+.social .container .corrida img{
+    width: 100px;
+    flex-direction: column;
+
+}
+
+.social .container .info{
+    border: solid 3px pink;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+button{
+    border: rgb(255, 81, 0) solid 2px;
+    height: 30px;
+    background-color: rgb(223, 153, 74);
+    position: fixed;
+}
+#menssagem{
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    font-size: 15px;
+
+}
