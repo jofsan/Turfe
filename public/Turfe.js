@@ -33,15 +33,17 @@ function largada() {
             if (somaSorteCV1 < somaSorteCV2 && somaSorteCV1 < somaSorteCV3) {
                 if (somaSorteCV2 < somaSorteCV3) {
                     c2.style.backgroundColor = "blue";
+                    c3.style.backgroundColor = "red"
                     c2.style.marginLeft = "150px";
-                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 2<br>`
                     menssagem.innerHTML += `<b><u>Em 3º Lugar</u> –</b> Cavalo 3<br>`
+                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 2<br>`
 
                 } else {
                     c3.style.backgroundColor = "blue";
+                    c2.style.backgroundColor = "red"
                     c3.style.marginLeft = "150px";
-                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 3`
                     menssagem.innerHTML += `<b><u>Em 3º Lugar</u> –</b> Cavalo 2`
+                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 3`
                 }
                 menssagem.innerHTML += `<b><u>Em 1º Lugar</u> –</b> Cavalo1`
                 c1.style.marginLeft = "300px";
@@ -49,16 +51,19 @@ function largada() {
                 volta = 0
             } else if (somaSorteCV2 < somaSorteCV3 && somaSorteCV2 < somaSorteCV1) {
                 if (somaSorteCV1 < somaSorteCV3) {
+                    c3.style.backgroundColor = "red"
                     c1.style.backgroundColor = "blue";
+                    
                     c1.style.marginLeft = "150px";
-                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 1<br>`
                     menssagem.innerHTML += `<b><u>Em 3º Lugar</u> –</b> Cavalo 3<br>`
+                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 1<br>`
 
                 } else {
                     c3.style.backgroundColor = "blue";
+                    c1.style.backgroundColor = "red"
                     c3.style.marginLeft = "150px";
-                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 3`
                     menssagem.innerHTML += `<b><u>Em 3º Lugar</u> –</b> Cavalo 1`
+                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 3`
 
                 }
                 menssagem.innerHTML += `<b><u>Em 1º Lugar</u> –</b> Cavalo2`
@@ -68,14 +73,16 @@ function largada() {
             } else {
                 if (somaSorteCV1 < somaSorteCV2) {
                     c1.style.backgroundColor = "blue";
+                    c2.style.backgroundColor = "red"
                     c1.style.marginLeft = "150px";
-                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 1<br>`
                     menssagem.innerHTML += `<b><u>Em 3º Lugar</u> –</b> Cavalo 2 <br>`
+                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 1<br>`
                 } else {
                     c2.style.backgroundColor = "blue";
+                    c1.style.backgroundColor = "red"
                     c2.style.marginLeft = "150px";
-                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 2<br>`
                     menssagem.innerHTML += `<b><u>Em 3º Lugar</u> –</b> Cavalo 1<br>`
+                    menssagem.innerHTML += `<b><u>Em 2º Lugar</u> –</b> Cavalo 2<br>`
                 }
                 menssagem.innerHTML += `<b><u>Em 1º Lugar</u> –</b> Cavalo 3`
                 c3.style.marginLeft = "300px";
